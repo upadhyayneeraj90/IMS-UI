@@ -1,0 +1,40 @@
+.app-header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Set a fixed height */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other elements */
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header-nav ul li {
+    margin-left: 20px;
+  }
+  
+  .header-nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
